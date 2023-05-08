@@ -1,0 +1,6 @@
+.emoji.rocket {
+    top: 30%;
+    animation-name: moveHorizontally;
+    animation-timing-function: linear;
+  }
+  

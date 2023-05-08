@@ -1,0 +1,61 @@
+
+
+
+body {
+  cursor: url('https://em-content.zobj.net/thumbs/240/apple/354/flying-saucer_1f6f8.png') 16 16, auto;
+}
+
+@keyframes twinkling {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .star {
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 50%;
+    animation-name: twinkling;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  .star:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: inherit;
+    border-radius: inherit;
+  }
+  .star {
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 50%;
+    animation-name: twinkle;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 0.7;
+  }
+  
+  @keyframes twinkle {
+    0% {
+      opacity: 0.7;
+    }
+    50% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 0.7;
+    }
+  }
+

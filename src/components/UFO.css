@@ -1,0 +1,7 @@
+.emoji.ufo {
+    top: 70%;
+    animation-name: moveHorizontally;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+  }
+  
