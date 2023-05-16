@@ -4,10 +4,8 @@ from '@chakra-ui/react';
 import Typist from 'react-typist';
 import { StarIcon } from '@chakra-ui/icons';
 import { useState } from 'react';
-import { FaTwitter, FaLinkedin, FaDiscord } from 'react-icons/fa';
-import './stars.css';
-import LogoBlock from './components/LogoBlock';
-
+import { FaTwitter, FaLinkedin } from 'react-icons/fa';
+import './stars.css'
 
 
 const cardContent = [
