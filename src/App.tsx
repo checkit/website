@@ -68,7 +68,9 @@ const App: React.FC = () => {
       <Box bg="black" color="white" minHeight="100vh" marginTop={0} paddingTop={0}>
         <Container maxW="container.xl">
           <Flex justifyContent="space-between" alignItems="center" py={8}>
+             {/* 
           <Avatar size="xl" src="https://pbs.twimg.com/profile_images/1600688241396662273/H-e0ngU2_400x400.jpg" />
+          */}
 
             {/* Navigation */}
             <Flex as="nav" gap={8}>
