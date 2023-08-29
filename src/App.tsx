@@ -54,7 +54,7 @@ const App: React.FC = () => {
         <Container maxW="container.xl">
           <Flex justifyContent="space-between" alignItems="center" py={8}>
       
-          <Avatar size="xl" src="https://twitter.com/gartherly/photo" />
+          {/*<Avatar size="xl" src="https://twitter.com/gartherly/photo" />*/}
         
 
             {/* Navigation */}
