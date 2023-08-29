@@ -8,21 +8,6 @@ import { FaTwitter, FaLinkedin } from 'react-icons/fa';
 import './stars.css'
 
 
-const cardContent = [
-  {
-    title: "🎯 Strategy",
-    body: "Providing the long-term vision and goals for your organization by assessing the market landscape and determining competitive advantages is something I see a lot of value in. A solid strategic plan offers a clear roadmap for the team to follow.",
-  },
-  {
-    title: "⚔️ Tactics",
-    body: "I enjoy dentifying specific actions and allocating resources to effectively implement the overarching strategy. This focus on short-term steps allows for maximum efficiency and minimum wasted effort.",
-  },
-  {
-    title: "🚀 Execution",
-    body: "Bridges the gap between planning and results, ensuring your team has the necessary tools and support to carry out tasks effectively is the end game. Clear communication, progress tracking, and feedback systems are vital components of successful execution."
-  },
-];
-
 
 
 const renderStars = (count: number) => {
